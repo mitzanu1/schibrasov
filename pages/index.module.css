@@ -1,0 +1,52 @@
+.background {
+  background-image: url("../public/skipoianabrasov.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mainText {
+  text-align: center;
+  padding: 17rem 10%;
+}
+
+.mainText h1 {
+  font-size: 39px;
+}
+
+.mainText h4 {
+  font-size: 25px;
+}
+
+.mainText h3 {
+  font-size: 25px;
+}
+
+.mainText h1,
+.mainText h3,
+.mainText h4 {
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  /* background: rgba(243, 240, 240, 0.171); */
+}
+
+@media (max-width: 700px) {
+  .mainText {
+    padding: 4rem 5%;
+  }
+
+  .mainText h1 {
+    font-size: 30px;
+  }
+  .mainText h3 {
+    font-size: 15px;
+  }
+  .mainText h4 {
+    font-size: 15px;
+  }
+}

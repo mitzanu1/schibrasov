@@ -1,0 +1,63 @@
+.main {
+  background-color: rgba(29, 28, 28, 0.884);
+  min-height: 5rem;
+  text-align: center;
+}
+
+.main p {
+  color: white;
+}
+
+.logos a {
+  margin: 1rem;
+}
+
+.logos {
+  border-bottom: 1px solid rgb(73, 71, 71);
+}
+
+.parteneri {
+  width: 35%;
+}
+
+.parteneri a {
+  color: white;
+}
+
+.parteneriContact {
+  display: flex;
+  flex-direction: row;
+  flex-grow: fill;
+  justify-content: center;
+  text-align: left;
+  margin: 1rem 0;
+}
+
+.parteneriContact h3 {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.parteneriContact p {
+  margin: 0;
+}
+
+.trademark {
+  border-top: 1px solid rgb(73, 71, 71);
+}
+
+.trademark h2 {
+  color: white;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .parteneriContact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .parteneri {
+    width: auto;
+    margin-bottom: 1rem;
+  }
+}

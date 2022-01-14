@@ -1,0 +1,39 @@
+.instructorList {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+}
+.background {
+  background-image: url("/RJ-ski-snowboard-team-school-in-Poiana-Brasov.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainText,
+.echipaText {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.mainText h3,
+.echipaText h3 {
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+  color: grey;
+}
+
+.mainText h1,
+.echipaText h1 {
+  margin-bottom: 8rem;
+}
+
+.red {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 3rem;
+}
